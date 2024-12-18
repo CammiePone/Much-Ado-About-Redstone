@@ -1,0 +1,50 @@
+{
+  "variants": {
+    "facing=down,powered=false": {
+      "model": "maar:block/pulser",
+      "x": 90
+    },
+    "facing=down,powered=true": {
+      "model": "maar:block/pulser_on",
+      "x": 90
+    },
+    "facing=east,powered=false": {
+      "model": "maar:block/pulser",
+      "y": 90
+    },
+    "facing=east,powered=true": {
+      "model": "maar:block/pulser_on",
+      "y": 90
+    },
+    "facing=north,powered=false": {
+      "model": "maar:block/pulser"
+    },
+    "facing=north,powered=true": {
+      "model": "maar:block/pulser_on"
+    },
+    "facing=south,powered=false": {
+      "model": "maar:block/pulser",
+      "y": 180
+    },
+    "facing=south,powered=true": {
+      "model": "maar:block/pulser_on",
+      "y": 180
+    },
+    "facing=up,powered=false": {
+      "model": "maar:block/pulser",
+      "x": 270
+    },
+    "facing=up,powered=true": {
+      "model": "maar:block/pulser_on",
+      "x": 270
+    },
+    "facing=west,powered=false": {
+      "model": "maar:block/pulser",
+      "y": 270
+    },
+    "facing=west,powered=true": {
+      "model": "maar:block/pulser_on",
+      "y": 270
+    }
+  }
+}

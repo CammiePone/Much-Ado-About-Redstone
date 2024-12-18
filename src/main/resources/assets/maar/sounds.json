@@ -1,0 +1,14 @@
+{
+  "pulser_fire": {
+    "subtitle": "subtitles.maar.pulser_fire",
+    "sounds": [
+      "maar:pulser_fire"
+    ]
+  },
+  "pulser_die": {
+    "subtitle": "subtitles.maar.pulser_die",
+    "sounds": [
+      "maar:pulser_die"
+    ]
+  }
+}

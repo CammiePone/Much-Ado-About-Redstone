@@ -1,0 +1,39 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "dev.cammiescorner",
+		"id": "maar",
+		"version": "${version}",
+		"metadata": {
+			"name": "Much Ado About Redstone",
+			"description": "Circuits that replace complex solutions for simple problems!",
+			"contributors": {
+				"Cammie": "Owner"
+			},
+			"contact": {
+				"homepage": "https://cammiescorner.dev/"
+			},
+			"icon": "assets/maar/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "dev.cammiescorner.maar.MAAR",
+			"client_init": "dev.cammiescorner.maar.client.MAARClient"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=4.0.0-"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.2"
+			}
+		]
+	},
+	"mixin": "maar.mixins.json"
+}
